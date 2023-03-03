@@ -71,6 +71,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+#profil_container{
+	display: none;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -3904,6 +3908,15 @@ input, select, textarea {
 
 			#intro {
 				background-attachment: scroll;
+			}
+
+		}
+		@media screen and (min-width: 1280px) {
+
+			#profil_container{
+				display: flex;
+				justify-content: center;
+				padding: 20px;
 			}
 
 		}
