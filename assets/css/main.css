@@ -3918,5 +3918,7 @@ input, select, textarea {
 				justify-content: center;
 				padding: 20px;
 			}
-
+			#sidebar{
+				padding-top: 0px;
+			}
 		}
