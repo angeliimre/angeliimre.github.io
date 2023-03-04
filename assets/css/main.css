@@ -3920,5 +3920,6 @@ input, select, textarea {
 			}
 			#sidebar{
 				padding-top: 0px;
+				overflow: hidden;
 			}
 		}
